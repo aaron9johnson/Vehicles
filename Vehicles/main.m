@@ -2,16 +2,17 @@
 //  main.m
 //  Vehicles
 //
-//  Created by Aaron Johnson on 2017-10-06.
-//  Copyright © 2017 Aaron Johnson. All rights reserved.
+//  Created by Transferred on 9/8/13.
+//  Copyright (c) 2013 Designated Nerd Software. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-int main(int argc, const char * argv[]) {
+#import "AppDelegate.h"
+
+int main(int argc, char * argv[])
+{
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
-    return 0;
 }
